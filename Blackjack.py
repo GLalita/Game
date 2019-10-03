@@ -152,7 +152,7 @@ class Game:
                         game_over = True
                     elif self.player_is_over():
                         print("----------------------------------") 
-                        print("BUST--sorry, you just lost $30,000!")
+                        print("BUST--sorry, you just lost $3 Mil!")
                         print("----------------------------------") 
                         game_over = True
                         self.loss += 1
