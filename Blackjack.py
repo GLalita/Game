@@ -222,10 +222,12 @@ class Game:
 
         elif player_has_blackjack:
             self.blackjacks += 1
+            self.wins +=1
             print("You have BLACKJACK! You win $$ 5 Mil $$")
             print()
 
         elif dealer_has_blackjack:
+            self.loss +=1
             print("Dealer has blackjack! Dealer wins!")
 
 if __name__ == "__main__":
