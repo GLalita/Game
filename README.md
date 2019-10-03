@@ -1,5 +1,6 @@
 # GP's Blackjack Affair
 Blackjack-like Game created with Python
+
 Grace Patel
 
 ## Overview
@@ -21,7 +22,6 @@ Any other card is worth its numeric value.
 Each player is dealt 2 cards to start. You can only see one of the cards in the dealer's hand. Choose to either "hit" to recieve another card or to "stick" to keep your current hand. Remember, the goal is to get as close to 21 without going over. When both the dealer and the player are content with their cards or if you bust, the round will end and $ will be rewarded or deducted accordingly. 
 
 ## Scoring
-
 +$5 Mil -- Blackjack [Exactly 21]
 +$1 Mil -- Win [Closer to 21 than Dealer]
 -$3 Mil -- Bust [Over 21]
@@ -44,6 +44,6 @@ The class contains methods to add a card to a hand, calculate the value of a han
 A Game's attributes keep track of scoring and randomly selects from a list of KPCB portfolio companies.
 The play method outputs the initial game setup with one instance of a deck object and two instances of the hand object. The program will continue to run the game until 'game_over' is set to true. If the player indicates they would like to play again, 'game_over' is set to false and the loop continues. Else, the winnings/losings of the player will be presented and the program will terminate.
 
-##Other
+## Other
 - No bust for dealer
 - The program determines whether an ace is scored as a 1 or 11
