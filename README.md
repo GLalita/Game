@@ -1,7 +1,7 @@
 # GP's Blackjack Affair
 Blackjack-like Game created with Python
 
-Grace Patel
+To play: download repository as a zip file. Save to computer in the desired directory. Open terminal and change to the appropriate directory. Run the script by entering 'python3 Blackjack.py' (if Python version 3.0 or later)
 
 ## Overview
 
